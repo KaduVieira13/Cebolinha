@@ -12,7 +12,7 @@ namespace Cebolinha
 
             Console.WriteLine();
             string textoDigitado = Console.ReadLine();
-            string RecebeTexto = textoDigitado.Replace("r", "l").Replace("R", "L");
+            string RecebeTexto = textoDigitado.Replace("r", "l").Replace("R", "L").Replace("rr", "l").Replace("RR", "L");
             Console.WriteLine(RecebeTexto);
            
 
